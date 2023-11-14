@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+}
+
+.topbar {
+    padding: 10px;
+    background-color: darkblue; 
+    height: 28px;
+    margin: -8px -8px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.bottombar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    background-color: darkblue; 
+    width: auto;
+    height: 18px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+    position: fixed;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.bottombar a {
+    color: white;
+}
+
+.topbar-left {
+    float: left;
+    color: white;
+}
+
+.topbar-rigth {
+    float: right;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
