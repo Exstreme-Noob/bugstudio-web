@@ -1,7 +1,7 @@
 :root 
 {
     --main: #1b1b1b;
-    --accent: #24b322;
+    --accent: #228ab3;
     --hover: #ffffff;
     --text: #ffffff;
 }
@@ -9,7 +9,7 @@ body {
     color: var(--text);
     background-color: var(--main);
     font-family:"Weickenmeier";
-    background-image: url("/img/giphy.gif");
+    background-image: url("/img/logo.png");
 }
 
 @font-face 
