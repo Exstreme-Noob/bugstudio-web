@@ -1,15 +1,30 @@
+:root 
+{
+    --main: #1b1b1b;
+    --accent: #228ab3;
+    --hover: #ffffff;
+    --text: #ffffff;
+}
 body {
-    background-color: white;
-    font-family:"comic sans ms", cursive, sans-serif;
+    color: var(--text);
+    background-color: var(--main);
+    font-family:"Weickenmeier";
+    background-image: url("/img/logo.png");
+}
+
+@font-face 
+{
+    font-family: Weickenmeier;
+    src:url("/style/Montserrat-Medium.ttf");
 }
 
 .topbar {
     padding: 10px;
-    background-color: darkblue; 
+    background-color: var(--accent); 
     height: 28px;
     margin-top: -8px;
     margin-left: -8px;
-    color: white;
+    color: var(--main);
     font-size: large;
     font-weight: bold;
 	position: relative;
@@ -21,10 +36,10 @@ body {
     position: fixed;
     bottom: 0;
     padding: 10px;
-    background-color: darkblue; 
+    background-color: var(--accent); 
     width: auto;
     height: 18px;
-    color: white;
+    color: var(--main);
     font-size: large;
     font-weight: bold;
     position: fixed;
@@ -36,17 +51,17 @@ body {
 }
 
 .bottombar a {
-    color: white;
+    color: var(--main);
 }
 
 .topbar-left {
     float: left;
-    color: white;
+    color: var(--main);
 }
 
 .topbar-rigth {
     float: right;
-    color: white;
+    color: var(--main);
 }
 
 a {
@@ -54,5 +69,5 @@ a {
 }
 
 a:hover {
-    color: gray;
+    color: var(--hover);
 }
