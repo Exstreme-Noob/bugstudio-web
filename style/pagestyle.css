@@ -8,14 +8,14 @@
 body {
     color: var(--text);
     background-color: var(--main);
-    font-family:"Weickenmeier";
+    font-family:"montserret-medium";
     background-image: url("/img/logo.png");
     font-size: larger;
 }
 
 @font-face 
 {
-    font-family: Weickenmeier;
+    font-family: montserret-medium;
     src:url("/style/Montserrat-Medium.ttf");
 }
 
