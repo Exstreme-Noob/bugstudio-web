@@ -30,7 +30,6 @@ body {
 	position: relative;
     width: 99.7%;
 }
-
 .bottombar {
     overflow: hidden;
     position: fixed;
@@ -66,6 +65,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--accent);
 }
 
 a:hover {
