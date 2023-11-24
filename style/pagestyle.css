@@ -1,21 +1,20 @@
-:root 
-{
+:root {
     --main: #1b1b1b;
     --accent: #228ab3;
     --hover: #ffffff;
     --text: #ffffff;
 }
+
+@font-face {
+    font-family: Montserrat;
+    src:url("/style/Montserrat-Medium.ttf");
+}
+
 body {
     color: var(--text);
     background-color: var(--main);
-    font-family:"Weickenmeier";
+    font-family:"Montserrat";
     background-image: url("/img/logo.png");
-}
-
-@font-face 
-{
-    font-family: Weickenmeier;
-    src:url("/style/Montserrat-Medium.ttf");
 }
 
 .topbar {
@@ -62,7 +61,20 @@ body {
     float: right;
     color: var(--main);
 }
-
+.search{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.logos{
+    margin-top: 10px;
+    height: 80px;
+    width: 500px;
+}
+.logos img{
+    height: 64px;
+    width: 64px;
+    margin-left: 10px;
+}
 a {
     text-decoration: none;
     color: var(--accent);
