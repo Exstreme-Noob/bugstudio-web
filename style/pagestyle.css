@@ -1,10 +1,16 @@
-:root 
-{
+:root {
     --main: #1b1b1b;
     --accent: #228ab3;
     --hover: #ffffff;
     --text: #ffffff;
 }
+
+@font-face 
+{
+    font-family: montserret-medium;
+    src:url("/style/Montserrat-Medium.ttf");
+}
+
 body {
     color: var(--text);
     background-color: var(--main);
@@ -13,11 +19,6 @@ body {
     font-size: larger;
 }
 
-@font-face 
-{
-    font-family: montserret-medium;
-    src:url("/style/Montserrat-Medium.ttf");
-}
 
 .topbar {
     padding: 10px;
@@ -31,7 +32,6 @@ body {
 	position: relative;
     width: 99.7%;
 }
-
 .bottombar {
     overflow: hidden;
     position: fixed;
@@ -64,10 +64,23 @@ body {
     float: right;
     color: var(--main);
 }
-
+.search{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.logos{
+    margin-top: 10px;
+    height: 80px;
+    width: 500px;
+}
+.logos img{
+    height: 64px;
+    width: 64px;
+    margin-left: 10px;
+}
 a {
     text-decoration: none;
-    color:lightcyan;
+    color: var(--accent);
     font-size: larger;
 }
 
