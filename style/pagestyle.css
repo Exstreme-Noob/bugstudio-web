@@ -71,12 +71,19 @@ body {
 .logos{
     margin-top: 10px;
     height: 80px;
-    width: 500px;
+    width: auto;
 }
 .logos img{
     height: 64px;
     width: 64px;
     margin-left: 10px;
+}
+.logos img:hover{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    margin-top: -14px;
+    margin-right: -1px;
 }
 a {
     text-decoration: none;
