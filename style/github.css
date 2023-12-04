@@ -1,0 +1,25 @@
+.selcetor {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.button {
+    background-color: black;
+    border: 6px;
+    border-style: solid;
+    border-radius: 10%;
+    padding-left:10px;
+    padding-right: 10px;
+    border-color: gray;
+}
+
+.button:hover {
+    background-color: black;
+    border: 10px;
+    border-style: solid;
+    border-radius: 10%;
+    padding-left:10px;
+    padding-right: 10px;
+    border-color: darkgray;
+}
